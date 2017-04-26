@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" parallel="tests"   thread-count="30" >
+    <listeners>
+          <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+          <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    </listeners>
+
+
+    
+        <test name="test11">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.197:5555"/>
+        <parameter name="username" value="test11"/>
+        <parameter name="password" value="test11"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+      <test name="test12">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.197:5555"/>
+        <parameter name="username" value="test12"/>
+        <parameter name="password" value="test12"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test13">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.197:5555"/>
+        <parameter name="username" value="test13"/>
+        <parameter name="password" value="test13"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test14">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.197:5555"/>
+        <parameter name="username" value="test14"/>
+        <parameter name="password" value="test14"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test15">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.197:5555"/>
+        <parameter name="username" value="test15"/>
+        <parameter name="password" value="test15"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test16">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.197:5555"/>
+        <parameter name="username" value="test16"/>
+        <parameter name="password" value="test16"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test17">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.197:5555"/>
+        <parameter name="username" value="test17"/>
+        <parameter name="password" value="test17"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test18">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.197:5555"/>
+        <parameter name="username" value="test18"/>
+        <parameter name="password" value="test18"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test19">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.197:5555"/>
+        <parameter name="username" value="test19"/>
+        <parameter name="password" value="test19"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test20">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.197:5555"/>
+        <parameter name="username" value="test20"/>
+        <parameter name="password" value="test20"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+</test>
+    <test name="test21">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.114:5555"/>
+        <parameter name="username" value="test21"/>
+        <parameter name="password" value="test21"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test22">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.114:5555"/>
+        <parameter name="username" value="test22"/>
+        <parameter name="password" value="test22"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test23">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.114:5555"/>
+        <parameter name="username" value="test23"/>
+        <parameter name="password" value="test23"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test24">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.114:5555"/>
+        <parameter name="username" value="test24"/>
+        <parameter name="password" value="test24"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test25">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.114:5555"/>
+        <parameter name="username" value="test25"/>
+        <parameter name="password" value="test25"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test26">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.114:5555"/>
+        <parameter name="username" value="test26"/>
+        <parameter name="password" value="test26"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test27">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.114:5555"/>
+        <parameter name="username" value="test27"/>
+        <parameter name="password" value="test27"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test28">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.114:5555"/>
+        <parameter name="username" value="test28"/>
+        <parameter name="password" value="test28"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test29">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.114:5555"/>
+        <parameter name="username" value="test29"/>
+        <parameter name="password" value="test29"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    <test name="test30">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.114:5555"/>
+        <parameter name="username" value="test30"/>
+        <parameter name="password" value="test30"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+    
+
+    <test name="test31">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.143:5555"/>
+        <parameter name="username" value="test31"/>
+        <parameter name="password" value="test31"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+       <test name="test32">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.143:5555"/>
+        <parameter name="username" value="test32"/>
+        <parameter name="password" value="test32"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+       <test name="test33">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.143:5555"/>
+        <parameter name="username" value="test33"/>
+        <parameter name="password" value="test33"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+       <test name="test34">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.143:5555"/>
+        <parameter name="username" value="test34"/>
+        <parameter name="password" value="test34"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+       <test name="test35">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.143:5555"/>
+        <parameter name="username" value="test35"/>
+        <parameter name="password" value="test35"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+       <test name="test36">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.143:5555"/>
+        <parameter name="username" value="test36"/>
+        <parameter name="password" value="test36"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+       <test name="test37">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.143:5555"/>
+        <parameter name="username" value="test37"/>
+        <parameter name="password" value="test37"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+       <test name="test38">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.143:5555"/>
+        <parameter name="username" value="test38"/>
+        <parameter name="password" value="test38"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+       <test name="test39">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.143:5555"/>
+        <parameter name="username" value="test39"/>
+        <parameter name="password" value="test39"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+       <test name="test40">
+        <!-- java -jar selenium-server-standalone-2.41.0.jar -role node -hub http://192.32.50.26:4444/grid/register -Dwebdriver.chrome.driver=chromedriver29.exe  -browser browserName=chrome  -port 6666 -->
+        <parameters>
+        <parameter name="browser" value="chrome"/>
+        <parameter name="nodeUrl" value="http://192.168.1.143:5555"/>
+        <parameter name="username" value="test40"/>
+        <parameter name="password" value="test40"/>
+        </parameters>
+        <classes>
+            <class name="com.test.NewTest"></class>
+        </classes>
+    </test>
+</suite>
+
+
