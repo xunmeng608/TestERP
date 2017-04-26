@@ -85,7 +85,7 @@ public class NewTest {
 //    	  Thread.sleep(10000);
 //    	  driver.findElement(By.xpath("//a[text()='所有订单']")).click();
     	  Thread.sleep(1000);
-    	  System.out.println("rrrrrrrrrrrrrrr7777777777777");
+    	  System.out.println("rrrrrrrrrrrrrrr7777777777777111111");
 //    	  driver.findElement(By.linkText("所有订单")).click();
 //    	  driver.findElement(By.xpath("id('react-root')/x:div/x:div[3]/x:div[1]/x:div[1]/x:div/x:a[1]"));
 //    	  driver.findElement(By.xpath("//div/a[contains(@href,'/store/all')]")).click();
